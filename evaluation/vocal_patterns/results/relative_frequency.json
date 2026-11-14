@@ -1,0 +1,2472 @@
+{
+    "0": {
+        "environment": {
+            "Indoor Residential Spaces": -0.06271797518624367,
+            "Walls, Windows": 0.009973415568705069,
+            "Furniture & Household Items": 0.04041438546426063,
+            "Outdoor General Spaces": 0.02354732949759125,
+            "Plants & Greenery": -0.00548406865227493,
+            "Play & Recreation Area": -0.0006190339990649676,
+            "Vehicles, Transportation Area": 0.0047027137834726035,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.004786980191722284
+        },
+        "activity": {
+            "Passive Actions": 0.09199204453014898,
+            "Movement & Locomotion": -0.006459920654778434,
+            "Observing & Watching": -0.034026973651288345,
+            "Exploring & Investigating": -0.013487291148550594,
+            "Interaction with Items": -0.0008926046482939862,
+            "Feeding": -0.02138736597837965,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": 0.002527339654106971
+        }
+    },
+    "12": {
+        "environment": {
+            "Indoor Residential Spaces": -0.02841450886838881,
+            "Walls, Windows": 0.002452159846010493,
+            "Furniture & Household Items": -0.013956663151392296,
+            "Outdoor General Spaces": 0.06184033145965795,
+            "Plants & Greenery": -0.014433272925220217,
+            "Play & Recreation Area": -0.0011204510472446055,
+            "Vehicles, Transportation Area": 0.003950588211203145,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.0033470190131976362,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.03365199618204262,
+            "Movement & Locomotion": -0.10654050083205484,
+            "Observing & Watching": 0.16614883764458743,
+            "Exploring & Investigating": -0.038408542338939575,
+            "Interaction with Items": -0.012247084173603484,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "17": {
+        "environment": {
+            "Indoor Residential Spaces": 0.12277202053311176,
+            "Walls, Windows": 0.04267201676452384,
+            "Furniture & Household Items": -0.05405437733739823,
+            "Outdoor General Spaces": -0.04310644920689238,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.002008232238980069,
+            "Water & Wet Environment": -0.006940470793911779,
+            "Pet-Related Space": 0.0019336531084689678,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.005761529650602393,
+            "Movement & Locomotion": -0.020967478519681615,
+            "Observing & Watching": 0.05115252564016182,
+            "Exploring & Investigating": -0.02755200536678394,
+            "Interaction with Items": -0.01751400285330107,
+            "Feeding": 0.0017349769597403315,
+            "Drinking": 0.013852168831054695,
+            "Interaction with Animals": -0.0024323732492771543,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "19": {
+        "environment": {
+            "Indoor Residential Spaces": 0.038876043716281394,
+            "Walls, Windows": -0.03587226083135135,
+            "Furniture & Household Items": 0.03880626019976635,
+            "Outdoor General Spaces": -0.003311183691857192,
+            "Plants & Greenery": -0.014878905723794189,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.0020789304571924502,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.0018223214502604739,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.16034882876122813,
+            "Movement & Locomotion": -0.12464004834336706,
+            "Observing & Watching": -0.05145708584368902,
+            "Exploring & Investigating": -0.026479295115574706,
+            "Interaction with Items": -0.010190317410954369,
+            "Feeding": 0.012072003016847528,
+            "Drinking": 0.017294593546298885,
+            "Interaction with Animals": 0.02708666248172612,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "32": {
+        "environment": {
+            "Indoor Residential Spaces": 0.06731716171417645,
+            "Walls, Windows": 0.03838805959900768,
+            "Furniture & Household Items": -0.011137216196756478,
+            "Outdoor General Spaces": -0.050097134652758446,
+            "Plants & Greenery": -0.03366033479641727,
+            "Play & Recreation Area": -0.0029217643793730463,
+            "Vehicles, Transportation Area": 0.0022426539982987534,
+            "Water & Wet Environment": -0.005546403972829316,
+            "Pet-Related Space": -0.0004423658895073455,
+            "Human Presence & Crowd": -0.004142655423840931
+        },
+        "activity": {
+            "Passive Actions": -0.043814067166373705,
+            "Movement & Locomotion": 0.02540520052541123,
+            "Observing & Watching": 0.029945629088437675,
+            "Exploring & Investigating": 0.01781934741836194,
+            "Interaction with Items": -0.009828326460728124,
+            "Feeding": -0.014896322775007678,
+            "Drinking": 0.0009145030485613274,
+            "Interaction with Animals": -0.0015106225861471808,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "72": {
+        "environment": {
+            "Indoor Residential Spaces": 0.007709893045486749,
+            "Walls, Windows": -0.13391147651762586,
+            "Furniture & Household Items": -0.0340523569312966,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.019935665269717823,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.227982248672701,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.04782623300000197
+        },
+        "activity": {
+            "Passive Actions": -0.24902774238004888,
+            "Movement & Locomotion": 0.19574708086729156,
+            "Observing & Watching": -0.10449881535600677,
+            "Exploring & Investigating": 0.11756293716195168,
+            "Interaction with Items": 0.027265690633288965,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.051732600836330335,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "88": {
+        "environment": {
+            "Indoor Residential Spaces": 0.05037336991948993,
+            "Walls, Windows": -0.005123597729747076,
+            "Furniture & Household Items": -0.03365363284836199,
+            "Outdoor General Spaces": 0.020931240550567054,
+            "Plants & Greenery": -0.015948424440371728,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.006291658561058268,
+            "Pet-Related Space": 0.0018318674980461217,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.04872248718836247,
+            "Movement & Locomotion": -0.03313262528514185,
+            "Observing & Watching": 0.030028273716536852,
+            "Exploring & Investigating": -0.04083926669479762,
+            "Interaction with Items": -0.0034964764925145206,
+            "Feeding": -0.02412709200577691,
+            "Drinking": 0.014938660709082625,
+            "Interaction with Animals": 0.003676917146847098,
+            "Water-Related Activities": 0.0044415080906921416,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "90": {
+        "environment": {
+            "Indoor Residential Spaces": 0.13288770243382253,
+            "Walls, Windows": -0.06093850354465288,
+            "Furniture & Household Items": -0.04884609804082718,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": 0.0834782749863277,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.006157153887754181,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.0365652799175864,
+            "Movement & Locomotion": -0.15635502123481054,
+            "Observing & Watching": 0.07868436782717642,
+            "Exploring & Investigating": -0.04009472049570597,
+            "Interaction with Items": 0.19243085579845412,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.005350223216164937,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "93": {
+        "environment": {
+            "Indoor Residential Spaces": -0.020776270817779663,
+            "Walls, Windows": -0.04628261053824442,
+            "Furniture & Household Items": 0.021563486801747356,
+            "Outdoor General Spaces": 0.02796029397137305,
+            "Plants & Greenery": 0.051686689586494874,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.003705217415199152,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.07162875248105899,
+            "Movement & Locomotion": 0.06190869702890772,
+            "Observing & Watching": 0.04449108363389223,
+            "Exploring & Investigating": -0.015012820413805888,
+            "Interaction with Items": -0.0055625921949938595,
+            "Feeding": -0.0013998192785041816,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": 0.0054694318085278925
+        }
+    },
+    "95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.04013119024526435,
+            "Walls, Windows": -0.02226099108073265,
+            "Furniture & Household Items": -0.010227625199053375,
+            "Outdoor General Spaces": 0.04167263507836935,
+            "Plants & Greenery": 0.032227509657892464,
+            "Play & Recreation Area": -0.004143398973105152,
+            "Vehicles, Transportation Area": -0.002808752771438808,
+            "Water & Wet Environment": 0.003276065739640203,
+            "Pet-Related Space": -0.0004849904013360497,
+            "Human Presence & Crowd": 0.002880738195028377
+        },
+        "activity": {
+            "Passive Actions": 0.018139855666570393,
+            "Movement & Locomotion": 0.014971266539143768,
+            "Observing & Watching": -0.016873582511018614,
+            "Exploring & Investigating": -0.005605768471638399,
+            "Interaction with Items": -0.011071922013340445,
+            "Feeding": -0.0019250077284774063,
+            "Drinking": 0.0014728662983609173,
+            "Interaction with Animals": 0.00039659570530309936,
+            "Water-Related Activities": 0.0007080828883869283,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "103": {
+        "environment": {
+            "Indoor Residential Spaces": -0.05244048289436287,
+            "Walls, Windows": -0.00891147651762586,
+            "Furniture & Household Items": -0.006326793021522156,
+            "Outdoor General Spaces": -0.007477850358523858,
+            "Plants & Greenery": 0.05196283097088368,
+            "Play & Recreation Area": -0.001282788709582268,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.0179258576952574,
+            "Pet-Related Space": 0.02104182420800283,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.14238639903409256,
+            "Movement & Locomotion": 0.01645415157436228,
+            "Observing & Watching": -0.07924629010348151,
+            "Exploring & Investigating": -0.018800699201684673,
+            "Interaction with Items": -0.018188854821256484,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "121": {
+        "environment": {
+            "Indoor Residential Spaces": -0.12386905432293427,
+            "Walls, Windows": -0.033911476517625855,
+            "Furniture & Household Items": 0.021649397454668318,
+            "Outdoor General Spaces": 0.0716888163081428,
+            "Plants & Greenery": 0.0370818785899313,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.0013524420918271576,
+            "Water & Wet Environment": 0.03280681007620978,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.011861320719300222
+        },
+        "activity": {
+            "Passive Actions": 0.008441912148429154,
+            "Movement & Locomotion": -0.01410352604213888,
+            "Observing & Watching": -0.10123084149979762,
+            "Exploring & Investigating": 0.06013996797427662,
+            "Interaction with Items": 0.047340387178573744,
+            "Feeding": -0.00732036931670128,
+            "Drinking": -0.0014513663761316267,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.012983767969850415,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "122": {
+        "environment": {
+            "Indoor Residential Spaces": 0.054452623998744065,
+            "Walls, Windows": -0.04999539260154194,
+            "Furniture & Household Items": 0.046183196988467845,
+            "Outdoor General Spaces": -0.04200582238649589,
+            "Plants & Greenery": -0.01827942677137406,
+            "Play & Recreation Area": 0.00377465384786029,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.008242123908302531,
+            "Human Presence & Crowd": 0.016173675031654535
+        },
+        "activity": {
+            "Passive Actions": -0.03791663126893774,
+            "Movement & Locomotion": 0.026302636422847137,
+            "Observing & Watching": 0.00661229575510433,
+            "Exploring & Investigating": 0.03422960382861835,
+            "Interaction with Items": -0.019956531588933256,
+            "Feeding": 0.0008729079942230919,
+            "Drinking": -0.0015213943873361082,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "151": {
+        "environment": {
+            "Indoor Residential Spaces": 0.055455840191833694,
+            "Walls, Windows": 0.013767848376888908,
+            "Furniture & Household Items": -0.03605102448625996,
+            "Outdoor General Spaces": -0.040441985379620904,
+            "Plants & Greenery": -0.016715589764499078,
+            "Play & Recreation Area": 0.0024468677099475696,
+            "Vehicles, Transportation Area": -0.0012469568597596476,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.03223079346659234,
+            "Human Presence & Crowd": -0.0005859366646660232
+        },
+        "activity": {
+            "Passive Actions": -0.0520191953715019,
+            "Movement & Locomotion": 0.0602769953972061,
+            "Observing & Watching": 0.0040481931910017754,
+            "Exploring & Investigating": 0.007306526905541434,
+            "Interaction with Items": -0.018033454665856333,
+            "Feeding": 0.0066421387634538614,
+            "Drinking": -0.004726522592464313,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": 0.004915818754914839
+        }
+    },
+    "165": {
+        "environment": {
+            "Indoor Residential Spaces": 0.04960033343216774,
+            "Walls, Windows": 0.0783334214415578,
+            "Furniture & Household Items": -0.04178597669499155,
+            "Outdoor General Spaces": -0.055692136072809574,
+            "Plants & Greenery": -0.03400655678421836,
+            "Play & Recreation Area": -0.0020480948320312463,
+            "Vehicles, Transportation Area": 0.012763204166676242,
+            "Water & Wet Environment": -0.0006965912843344343,
+            "Pet-Related Space": -0.0016622574246502294,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.029583297935604436,
+            "Movement & Locomotion": -0.024454939334728643,
+            "Observing & Watching": 0.01721835636116495,
+            "Exploring & Investigating": 0.007714452313466839,
+            "Interaction with Items": -0.003289864922266586,
+            "Feeding": 0.03269108981240491,
+            "Drinking": 0.00832709046114874,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "243": {
+        "environment": {
+            "Indoor Residential Spaces": 0.015836828030006855,
+            "Walls, Windows": 0.03520617054119768,
+            "Furniture & Household Items": -0.035213347643370904,
+            "Outdoor General Spaces": 0.018257443759123207,
+            "Plants & Greenery": -0.01683969003751968,
+            "Play & Recreation Area": -0.002858418961683108,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.008961992275229723,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.011479849659742358,
+            "Movement & Locomotion": -0.044674375071405745,
+            "Observing & Watching": -0.013502646773631305,
+            "Exploring & Investigating": -0.04048303984954256,
+            "Interaction with Items": 0.03205496266394031,
+            "Feeding": 0.0448384252356024,
+            "Drinking": 0.024628030900020213,
+            "Interaction with Animals": 0.01265383364727457,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "0 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.011037195915854614,
+            "Walls, Windows": 0.012106222597418392,
+            "Furniture & Household Items": 0.01110367474080401,
+            "Outdoor General Spaces": -0.0049336025709132425,
+            "Plants & Greenery": -0.0020036671327825634,
+            "Play & Recreation Area": 0.0017355425167135605,
+            "Vehicles, Transportation Area": -0.002163651531355181,
+            "Water & Wet Environment": -0.003107644201076353,
+            "Pet-Related Space": -0.000434155564437118,
+            "Human Presence & Crowd": -0.0012655229385168873
+        },
+        "activity": {
+            "Passive Actions": 0.014840260961638596,
+            "Movement & Locomotion": -0.0059655340032180315,
+            "Observing & Watching": -0.010680937327602419,
+            "Exploring & Investigating": 0.0035278494426534412,
+            "Interaction with Items": 0.004291588711818624,
+            "Feeding": 0.0019380709014912602,
+            "Drinking": -0.003338436993852399,
+            "Interaction with Animals": -0.0005775206004136162,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "19 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.04132268609004508,
+            "Walls, Windows": -0.010017671207891349,
+            "Furniture & Household Items": 0.009186270611010502,
+            "Outdoor General Spaces": -0.0360545465237156,
+            "Plants & Greenery": -0.009378298401219141,
+            "Play & Recreation Area": 0.011912533667156038,
+            "Vehicles, Transportation Area": -0.005260996664098544,
+            "Water & Wet Environment": 0.0014646271853543252,
+            "Pet-Related Space": -0.0013191113166495074,
+            "Human Presence & Crowd": -0.0018554934399918135
+        },
+        "activity": {
+            "Passive Actions": 0.021273145783808234,
+            "Movement & Locomotion": -0.03648964198933341,
+            "Observing & Watching": -0.00671016210242692,
+            "Exploring & Investigating": 0.007992518456133309,
+            "Interaction with Items": 0.004336562483932431,
+            "Feeding": -0.002919914191747544,
+            "Drinking": 0.011352450093359924,
+            "Interaction with Animals": 0.00030641844785959504,
+            "Water-Related Activities": 0.0010710093917046383,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "44 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.06205586750974745,
+            "Walls, Windows": -0.022647740253889603,
+            "Furniture & Household Items": -0.018002617197346332,
+            "Outdoor General Spaces": 0.05502214964147614,
+            "Plants & Greenery": 0.038913380421433136,
+            "Play & Recreation Area": -0.0005959755227690801,
+            "Vehicles, Transportation Area": -0.004191269930654996,
+            "Water & Wet Environment": -0.004738977469577763,
+            "Pet-Related Space": 0.0011242417904204138,
+            "Human Presence & Crowd": 0.017172676030655535
+        },
+        "activity": {
+            "Passive Actions": 0.035705017694137586,
+            "Movement & Locomotion": -0.013618961958538817,
+            "Observing & Watching": -0.0280361615033681,
+            "Exploring & Investigating": -0.0035802090191307603,
+            "Interaction with Items": -0.013115358093738514,
+            "Feeding": 0.012291724382690467,
+            "Drinking": 0.01594193388782828,
+            "Interaction with Animals": -0.001552644297364643,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "3 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.019005832438435788,
+            "Walls, Windows": 0.02262347788966898,
+            "Furniture & Household Items": 0.03185709755598544,
+            "Outdoor General Spaces": -0.013746847319010179,
+            "Plants & Greenery": -0.005218020092946106,
+            "Play & Recreation Area": -0.004132332782530596,
+            "Vehicles, Transportation Area": -0.00664626174734894,
+            "Water & Wet Environment": 0.0002586844429777659,
+            "Pet-Related Space": -0.0011846195609941292,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.022539752324360895,
+            "Movement & Locomotion": -0.016317236482987663,
+            "Observing & Watching": 0.002857240873533007,
+            "Exploring & Investigating": -0.02484029796225397,
+            "Interaction with Items": -0.0005602288737397258,
+            "Feeding": 0.019200464320046316,
+            "Drinking": -0.001189216455504797,
+            "Interaction with Animals": 0.0006117610960285295,
+            "Water-Related Activities": -0.002089852466192286,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "141 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.01764037963932985,
+            "Walls, Windows": -0.053722797272342845,
+            "Furniture & Household Items": 0.017089649026995363,
+            "Outdoor General Spaces": 0.013355482974809471,
+            "Plants & Greenery": 0.011924645885528787,
+            "Play & Recreation Area": -0.003922051962053067,
+            "Vehicles, Transportation Area": -0.0018241402050347046,
+            "Water & Wet Environment": -0.002570548414356255,
+            "Pet-Related Space": -0.0041715630336862965,
+            "Human Presence & Crowd": 0.006200943360809655
+        },
+        "activity": {
+            "Passive Actions": 0.038667146114129136,
+            "Movement & Locomotion": -0.023268115501368397,
+            "Observing & Watching": -0.01618225723483052,
+            "Exploring & Investigating": 0.0006298406551429256,
+            "Interaction with Items": 0.003681715894784922,
+            "Feeding": -0.004588903728689874,
+            "Drinking": -0.008078528786388803,
+            "Interaction with Animals": 0.011398244745455498,
+            "Water-Related Activities": -0.002046755784944575,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "233 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.04005402542120018,
+            "Walls, Windows": -0.02215810464864705,
+            "Furniture & Household Items": 0.013508742348695285,
+            "Outdoor General Spaces": 0.030214827868836447,
+            "Plants & Greenery": 0.009625231191087373,
+            "Play & Recreation Area": 0.0032761157770678836,
+            "Vehicles, Transportation Area": 0.0018749182164580058,
+            "Water & Wet Environment": 0.006554401598367779,
+            "Pet-Related Space": -0.003817107804108371,
+            "Human Presence & Crowd": 0.0009750008734428035
+        },
+        "activity": {
+            "Passive Actions": -0.005647127722838485,
+            "Movement & Locomotion": 0.055912565500861294,
+            "Observing & Watching": -0.05792671133709425,
+            "Exploring & Investigating": -0.0022952188664171064,
+            "Interaction with Items": 0.007880347843690856,
+            "Feeding": 0.009915461185712453,
+            "Drinking": -0.005599408571733271,
+            "Interaction with Animals": -0.0024598860886021726,
+            "Water-Related Activities": 0.0004323644297109558,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "64 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.03408819033264765,
+            "Walls, Windows": 0.04661108880303921,
+            "Furniture & Household Items": -0.001173247042560513,
+            "Outdoor General Spaces": -0.015346021379901528,
+            "Plants & Greenery": -0.04387615783128802,
+            "Play & Recreation Area": 0.001665124422416375,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.004109262766228855,
+            "Pet-Related Space": -0.00336859316559744,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.018963245165155906,
+            "Movement & Locomotion": 0.0035014051123809786,
+            "Observing & Watching": 0.0008954971623162944,
+            "Exploring & Investigating": 0.030051943318504026,
+            "Interaction with Items": 0.0007338817795803781,
+            "Feeding": -0.008295957441133109,
+            "Drinking": -0.004577682865788175,
+            "Interaction with Animals": 0.0006894991918110086,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "171 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.003363088534208636,
+            "Walls, Windows": 0.03349923776808841,
+            "Furniture & Household Items": 0.009298206978477844,
+            "Outdoor General Spaces": -0.014174278929952426,
+            "Plants & Greenery": -0.0060728833148306,
+            "Play & Recreation Area": -0.005747074423867982,
+            "Vehicles, Transportation Area": -0.007453632568017634,
+            "Water & Wet Environment": -0.006627713733314027,
+            "Pet-Related Space": -0.003511747220568597,
+            "Human Presence & Crowd": -0.0025732030902235878
+        },
+        "activity": {
+            "Passive Actions": -0.0793085726608792,
+            "Movement & Locomotion": -0.030748645628434934,
+            "Observing & Watching": 0.029506068648877226,
+            "Exploring & Investigating": -0.002400432801418273,
+            "Interaction with Items": -0.0008173374497391153,
+            "Feeding": 0.07477400689532199,
+            "Drinking": 0.01761779975185803,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 0": {
+        "environment": {
+            "Indoor Residential Spaces": -0.0717857209896009,
+            "Walls, Windows": -0.02453647651762586,
+            "Furniture & Household Items": 0.06956606412133498,
+            "Outdoor General Spaces": 0.008147149641476142,
+            "Plants & Greenery": 0.011040211923264633,
+            "Play & Recreation Area": 0.005413639861846304,
+            "Vehicles, Transportation Area": 0.003335057908172843,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.009881109922288547,
+            "Human Presence & Crowd": -0.0022011792806997782
+        },
+        "activity": {
+            "Passive Actions": -0.02266840431858319,
+            "Movement & Locomotion": -0.010348832675430492,
+            "Observing & Watching": 0.01927693607931913,
+            "Exploring & Investigating": -0.006550538015353276,
+            "Interaction with Items": 0.005144785533660462,
+            "Feeding": 0.021465613161396342,
+            "Drinking": 0.002303326990576759,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "56 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.0050783140981183195,
+            "Walls, Windows": -0.018122002833415335,
+            "Furniture & Household Items": 0.039631853595019195,
+            "Outdoor General Spaces": -0.02787258720062912,
+            "Plants & Greenery": -0.012040928427612556,
+            "Play & Recreation Area": 0.010841271440793672,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.0009651197483516206,
+            "Pet-Related Space": 0.017940320448604337,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.028589414143555536,
+            "Movement & Locomotion": -0.01857503941813146,
+            "Observing & Watching": -0.013265380085874245,
+            "Exploring & Investigating": -0.00017406589615228535,
+            "Interaction with Items": 0.02369790266183127,
+            "Feeding": 0.03703498750492645,
+            "Drinking": 0.008493896132541569,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "199 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.007707438161318136,
+            "Walls, Windows": 0.01002791742176809,
+            "Furniture & Household Items": 0.004225155030425892,
+            "Outdoor General Spaces": 0.00830497792430443,
+            "Plants & Greenery": -0.005847414339361624,
+            "Play & Recreation Area": 0.00241490248810893,
+            "Vehicles, Transportation Area": -0.00463527037465544,
+            "Water & Wet Environment": -0.006334604065204358,
+            "Pet-Related Space": 0.0018318674980461217,
+            "Human Presence & Crowd": -0.0022800934221139193
+        },
+        "activity": {
+            "Passive Actions": -0.02104671256975077,
+            "Movement & Locomotion": 0.08158718926837558,
+            "Observing & Watching": -0.05029827335058672,
+            "Exploring & Investigating": -0.006420802675446681,
+            "Interaction with Items": 0.014393061907001709,
+            "Feeding": -0.00888318956675252,
+            "Drinking": -0.0007083862572548078,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "21 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.052003610897857766,
+            "Walls, Windows": 0.003703202381456716,
+            "Furniture & Household Items": -0.0010570245636803144,
+            "Outdoor General Spaces": 0.05540441263841803,
+            "Plants & Greenery": -0.0034379990859096793,
+            "Play & Recreation Area": 0.005079159739522145,
+            "Vehicles, Transportation Area": -0.006627671449625323,
+            "Water & Wet Environment": -0.0027436486393865476,
+            "Pet-Related Space": -0.002685786102176286,
+            "Human Presence & Crowd": 0.00436896597923906
+        },
+        "activity": {
+            "Passive Actions": -0.006088314658012517,
+            "Movement & Locomotion": 0.018582458050494827,
+            "Observing & Watching": -0.012897180276110809,
+            "Exploring & Investigating": -0.025692358267256785,
+            "Interaction with Items": 0.0018104695258939485,
+            "Feeding": 0.019351168863788307,
+            "Drinking": 0.01355664351678875,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "32 95 32": {
+        "environment": {
+            "Indoor Residential Spaces": 0.025406307995906263,
+            "Walls, Windows": 0.1327551901490408,
+            "Furniture & Household Items": -0.03161147211054908,
+            "Outdoor General Spaces": -0.061282198184610816,
+            "Plants & Greenery": -0.04335290401876435,
+            "Play & Recreation Area": -0.007312809413516015,
+            "Vehicles, Transportation Area": -0.0038886739758851284,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.002845339353073773,
+            "Human Presence & Crowd": 0.0009917555019089176
+        },
+        "activity": {
+            "Passive Actions": -0.04616578951809602,
+            "Movement & Locomotion": -0.030683895563684865,
+            "Observing & Watching": 0.07226886141167,
+            "Exploring & Investigating": 0.018236337835352362,
+            "Interaction with Items": 0.008747172114770448,
+            "Feeding": -0.010659078537763442,
+            "Drinking": -0.0031207209866627077,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "110 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.021390884514986275,
+            "Walls, Windows": 0.006761306356991875,
+            "Furniture & Household Items": 0.03258211916720655,
+            "Outdoor General Spaces": -0.04245491457870734,
+            "Plants & Greenery": -0.024844726914655856,
+            "Play & Recreation Area": 0.02342778359273315,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.006488525824429219,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.008353765001458457,
+            "Movement & Locomotion": 0.002468137588348296,
+            "Observing & Watching": 0.021763810906619496,
+            "Exploring & Investigating": -0.01413869453968001,
+            "Interaction with Items": -0.0003178369502386154,
+            "Feeding": -0.010141078019762923,
+            "Drinking": -0.006358224224165945,
+            "Interaction with Animals": 0.0024054613299367353,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "155 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.0034310981185546874,
+            "Walls, Windows": -0.03172169549572805,
+            "Furniture & Household Items": 0.022805115216225497,
+            "Outdoor General Spaces": -0.011583689774582254,
+            "Plants & Greenery": 0.03769015109601402,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.0060361403886641405,
+            "Water & Wet Environment": 0.01303795362852122,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.07598407614572117,
+            "Movement & Locomotion": 0.06031690360832054,
+            "Observing & Watching": -0.004412347565258823,
+            "Exploring & Investigating": 0.001479928082833662,
+            "Interaction with Items": -0.004943561420321062,
+            "Feeding": -0.0007807885038313839,
+            "Drinking": 0.009600525197618497,
+            "Interaction with Animals": 0.007085606087902505,
+            "Water-Related Activities": 0.007850197031747549,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "211 145 80 0 133 68 10 28 95 133 28": {
+        "environment": {
+            "Indoor Residential Spaces": 0.02981059935671937,
+            "Walls, Windows": -0.10793745054359988,
+            "Furniture & Household Items": -0.0693679185626477,
+            "Outdoor General Spaces": -0.04833282871350221,
+            "Plants & Greenery": -0.020277428769376056,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.12018435444496936,
+            "Water & Wet Environment": 0.11235226462166434,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.00047634161836211577
+        },
+        "activity": {
+            "Passive Actions": -0.003488407424655504,
+            "Movement & Locomotion": -0.01207935871097282,
+            "Observing & Watching": -0.0067696993787156046,
+            "Exploring & Investigating": -0.019906649212744175,
+            "Interaction with Items": -0.017340959812777536,
+            "Feeding": -0.02047745696928056,
+            "Drinking": -0.006205092684173091,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.0910675562296799,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "55 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.046663171969993145,
+            "Walls, Windows": -0.03832324122350822,
+            "Furniture & Household Items": 0.008904299415452621,
+            "Outdoor General Spaces": 0.03296332611206437,
+            "Plants & Greenery": 0.027277957021303853,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.0013436363395453923,
+            "Water & Wet Environment": 0.02055190811542547,
+            "Pet-Related Space": 0.008961992275229723,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.07325549710572893,
+            "Movement & Locomotion": 0.10849489091800621,
+            "Observing & Watching": -0.06876806385762042,
+            "Exploring & Investigating": 0.025585067175782947,
+            "Interaction with Items": -0.011692354548822604,
+            "Feeding": 0.0007691735543890639,
+            "Drinking": 0.015041537839496532,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.008625178060857773,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "159 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.04279761234373236,
+            "Walls, Windows": 0.011186562698060426,
+            "Furniture & Household Items": -0.020017269211998354,
+            "Outdoor General Spaces": -0.018997458201661113,
+            "Plants & Greenery": -0.02272204297869615,
+            "Play & Recreation Area": 0.001553345744199245,
+            "Vehicles, Transportation Area": 0.006000499084643431,
+            "Water & Wet Environment": -0.0010167193355549234,
+            "Pet-Related Space": 0.006020815804641487,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.0355067921544856,
+            "Movement & Locomotion": -0.08878745366724297,
+            "Observing & Watching": 0.020125809268617845,
+            "Exploring & Investigating": -0.02207670247768795,
+            "Interaction with Items": 0.012250675618273955,
+            "Feeding": 0.020917953039268133,
+            "Drinking": -0.005350223216164937,
+            "Interaction with Animals": 0.013430472354947761,
+            "Water-Related Activities": 0.014195063298792804,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "131 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.05191219567706573,
+            "Walls, Windows": 0.04968227348237414,
+            "Furniture & Household Items": -0.03199643587866502,
+            "Outdoor General Spaces": -0.015290350358523858,
+            "Plants & Greenery": -0.026720204743402032,
+            "Play & Recreation Area": 0.001507389861846304,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.13236107571338224,
+            "Movement & Locomotion": 0.0790804142006249,
+            "Observing & Watching": -0.017832148689340105,
+            "Exploring & Investigating": 0.01756293716195169,
+            "Interaction with Items": -0.014956531588933253,
+            "Feeding": 0.029206241327556427,
+            "Drinking": 0.025700827834886114,
+            "Interaction with Animals": -0.00014310121862581328,
+            "Water-Related Activities": 0.013954823058552564,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "149 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.042138285092164995,
+            "Walls, Windows": -0.01852686113301047,
+            "Furniture & Household Items": 0.00946991027518114,
+            "Outdoor General Spaces": 0.04540676502609153,
+            "Plants & Greenery": -0.007789916281863568,
+            "Play & Recreation Area": -0.0005959755227690801,
+            "Vehicles, Transportation Area": 0.009544993805608741,
+            "Water & Wet Environment": -0.004052164282764576,
+            "Pet-Related Space": 0.0038714945376731617,
+            "Human Presence & Crowd": 0.004810038668018171
+        },
+        "activity": {
+            "Passive Actions": 0.08416015756177775,
+            "Movement & Locomotion": -0.0763587946417253,
+            "Observing & Watching": 0.02319170238686699,
+            "Exploring & Investigating": -0.012454514845029116,
+            "Interaction with Items": -0.002111854451062399,
+            "Feeding": 0.002050918465427279,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "211 72": {
+        "environment": {
+            "Indoor Residential Spaces": 0.06501983456595462,
+            "Walls, Windows": 0.08831074570459635,
+            "Furniture & Household Items": 0.002204953010223873,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.06446432111201461,
+            "Movement & Locomotion": -0.16536403024381954,
+            "Observing & Watching": 0.1494694386122472,
+            "Exploring & Investigating": -0.04910372950471498,
+            "Interaction with Items": -0.004480341112742779,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.04303150195597736,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "154 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.03692389721891598,
+            "Walls, Windows": -0.032589890614542164,
+            "Furniture & Household Items": 0.005827077337194009,
+            "Outdoor General Spaces": 0.0005067311392735058,
+            "Plants & Greenery": -0.015414450338115688,
+            "Play & Recreation Area": -0.0014007874509290256,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.004356002440380121,
+            "Pet-Related Space": -0.001338603734099119,
+            "Human Presence & Crowd": 0.012815799427082896
+        },
+        "activity": {
+            "Passive Actions": -0.029330772683079154,
+            "Movement & Locomotion": 0.04170667682688753,
+            "Observing & Watching": -0.06409477495196637,
+            "Exploring & Investigating": 0.01150233110134563,
+            "Interaction with Items": 0.007063670431268765,
+            "Feeding": 0.016276948398263498,
+            "Drinking": 0.0052967874308457105,
+            "Interaction with Animals": 0.010563969488444895,
+            "Water-Related Activities": 0.0012275503312798365,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "114 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.0069720671723928485,
+            "Walls, Windows": -0.0077432522185604535,
+            "Furniture & Household Items": 0.04415718561666207,
+            "Outdoor General Spaces": -0.013903084003383671,
+            "Plants & Greenery": -0.008868277173308577,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.0004859378020664797,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.004540448445156919
+        },
+        "activity": {
+            "Passive Actions": 0.010416702064395489,
+            "Movement & Locomotion": -0.010364030243819544,
+            "Observing & Watching": -0.010054370911562333,
+            "Exploring & Investigating": 0.010896270495285021,
+            "Interaction with Items": 0.0017101350777334115,
+            "Feeding": -0.004127092005776909,
+            "Drinking": 0.0001452722793305588,
+            "Interaction with Animals": 0.0004124543369297424,
+            "Water-Related Activities": 0.0011770452807747856,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "76 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.07464625639547318,
+            "Walls, Windows": -0.014740492061667318,
+            "Furniture & Household Items": 0.0013989656757391195,
+            "Outdoor General Spaces": 0.04401178694717563,
+            "Plants & Greenery": 0.04701279396126118,
+            "Play & Recreation Area": 0.0001513341623644391,
+            "Vehicles, Transportation Area": 0.01103961317587578,
+            "Water & Wet Environment": -0.0036785094401978165,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.039245874622721,
+            "Movement & Locomotion": 0.049359896136548564,
+            "Observing & Watching": -0.006680137782727968,
+            "Exploring & Investigating": 0.006110994421665392,
+            "Interaction with Items": 0.014654920353807034,
+            "Feeding": -0.0057221840303167855,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 211 72": {
+        "environment": {
+            "Indoor Residential Spaces": -0.11167393237171475,
+            "Walls, Windows": -0.011960257005430741,
+            "Furniture & Household Items": 0.05965752753596912,
+            "Outdoor General Spaces": 0.05197336915367126,
+            "Plants & Greenery": 0.05130952086635407,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.0739881306358241,
+            "Movement & Locomotion": 0.06320739832760902,
+            "Observing & Watching": -0.017197228054419478,
+            "Exploring & Investigating": -0.04910372950471498,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 72": {
+        "environment": {
+            "Indoor Residential Spaces": -0.014112956761958673,
+            "Walls, Windows": 0.04901535275066682,
+            "Furniture & Household Items": -0.01351320417134795,
+            "Outdoor General Spaces": 0.015388003300012734,
+            "Plants & Greenery": -0.021861210840963007,
+            "Play & Recreation Area": 0.01417888376428533,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.014042757395063887,
+            "Movement & Locomotion": 0.03733867245888317,
+            "Observing & Watching": 0.002107791250599844,
+            "Exploring & Investigating": -0.02207670247768795,
+            "Interaction with Items": -0.014776351408753073,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.0494665083909838,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "22 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.02177481348523791,
+            "Walls, Windows": 0.007449780026876768,
+            "Furniture & Household Items": 0.03897051438311508,
+            "Outdoor General Spaces": -0.033328635698838,
+            "Plants & Greenery": 0.006104566199006345,
+            "Play & Recreation Area": -0.004975758043912858,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.017318153880747304,
+            "Pet-Related Space": -0.0005082879834706162,
+            "Human Presence & Crowd": 0.00043025614687439324
+        },
+        "activity": {
+            "Passive Actions": -0.0009109815514236619,
+            "Movement & Locomotion": 0.05497495280702791,
+            "Observing & Watching": -0.04706002062907645,
+            "Exploring & Investigating": 0.035642033207149426,
+            "Interaction with Items": -0.005690994865769412,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.001062171851054036,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "42 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.0390737326855074,
+            "Walls, Windows": 0.07076688605547354,
+            "Furniture & Household Items": 0.030275128448820354,
+            "Outdoor General Spaces": -0.029042177843903977,
+            "Plants & Greenery": -0.01701168866153069,
+            "Play & Recreation Area": -0.004363406921779427,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.008684003058665922,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.04281929946699292,
+            "Movement & Locomotion": 0.009960645080855784,
+            "Observing & Watching": -0.017197228054419478,
+            "Exploring & Investigating": 0.0028443224433369746,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.017633585512270414,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.008399467323942731,
+            "Water-Related Activities": 0.009164058267787774,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "102 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.09809585844664559,
+            "Walls, Windows": 0.00010914203907516629,
+            "Furniture & Household Items": 0.042182043502778266,
+            "Outdoor General Spaces": -0.008122180255431072,
+            "Plants & Greenery": 0.041377411235979406,
+            "Play & Recreation Area": 0.0052525573876195004,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.006604060935316312,
+            "Pet-Related Space": 0.009720027448061743,
+            "Human Presence & Crowd": 0.010658571578406752
+        },
+        "activity": {
+            "Passive Actions": -0.05151581327302779,
+            "Movement & Locomotion": 0.09843965073777552,
+            "Observing & Watching": -0.06189486170910834,
+            "Exploring & Investigating": -2.397490348798187e-05,
+            "Interaction with Items": 0.02692485900411378,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.01995233163754324,
+            "Water-Related Activities": 0.00231201460592816,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "195 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.07178311959010919,
+            "Walls, Windows": -0.05316613490271903,
+            "Furniture & Household Items": 0.012694946108912614,
+            "Outdoor General Spaces": -0.007866049116287833,
+            "Plants & Greenery": -0.04004027461917843,
+            "Play & Recreation Area": 0.03326690073141152,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.00356250365799032,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.0697348130871196,
+            "Movement & Locomotion": -0.021424636304425593,
+            "Observing & Watching": 0.0520668412096498,
+            "Exploring & Investigating": -0.003649184050169521,
+            "Interaction with Items": 0.009588922956521292,
+            "Feeding": 0.04405472617604127,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.0029882119126873182,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "127 3": {
+        "environment": {
+            "Indoor Residential Spaces": 0.037333131469415415,
+            "Walls, Windows": -0.002763935534019296,
+            "Furniture & Household Items": 0.022605681607673775,
+            "Outdoor General Spaces": -0.042655445986939156,
+            "Plants & Greenery": -0.04078697386908509,
+            "Play & Recreation Area": 0.044433448605015705,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.0051850716709224256,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.05085887893514385,
+            "Movement & Locomotion": -0.13135042480164266,
+            "Observing & Watching": 0.07804086718367576,
+            "Exploring & Investigating": -0.03549828732784423,
+            "Interaction with Items": 0.06014550922739328,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.015820617602235864,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "212 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.055492985946865914,
+            "Walls, Windows": -0.027073869680019028,
+            "Furniture & Household Items": 0.04579469659996746,
+            "Outdoor General Spaces": 0.02403924365857016,
+            "Plants & Greenery": -0.02061042910237639,
+            "Play & Recreation Area": 0.015429665502871944,
+            "Vehicles, Transportation Area": 0.0031347373953523293,
+            "Water & Wet Environment": -0.0003128480434483362,
+            "Pet-Related Space": 0.011350127016305642,
+            "Human Presence & Crowd": 0.003741662599642103
+        },
+        "activity": {
+            "Passive Actions": 0.09566300748311474,
+            "Movement & Locomotion": -0.052063537632982104,
+            "Observing & Watching": 0.01728553056627019,
+            "Exploring & Investigating": -0.01954707925840956,
+            "Interaction with Items": -0.013511539799113879,
+            "Feeding": -0.0093487668826242,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "228 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.06196429241817236,
+            "Walls, Windows": 0.03751709491094557,
+            "Furniture & Household Items": -0.04858869778342692,
+            "Outdoor General Spaces": 0.06335548297480947,
+            "Plants & Greenery": 0.034700926208978924,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.00948036833834784
+        },
+        "activity": {
+            "Passive Actions": -0.0026707296295935823,
+            "Movement & Locomotion": -0.05607441275748075,
+            "Observing & Watching": 0.036666940563847505,
+            "Exploring & Investigating": 0.01100556011277136,
+            "Interaction with Items": 0.004497020323635054,
+            "Feeding": 0.01412427411444167,
+            "Drinking": 0.0010742340279644384,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 110": {
+        "environment": {
+            "Indoor Residential Spaces": -0.017957724273673148,
+            "Walls, Windows": -0.01568487553240419,
+            "Furniture & Household Items": 0.04139488185532514,
+            "Outdoor General Spaces": 0.02361820875477663,
+            "Plants & Greenery": -0.00684258774832814,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.004759667050776254,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.004108326671057019,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.0639138118909851,
+            "Movement & Locomotion": -0.02663570654439759,
+            "Observing & Watching": 0.001795340071096635,
+            "Exploring & Investigating": -0.025982342221477984,
+            "Interaction with Items": -0.01672917128064809,
+            "Feeding": 0.004774642098269333,
+            "Drinking": 0.0074863127417583025,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "32 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.05772298547806076,
+            "Walls, Windows": 0.0004168816913293627,
+            "Furniture & Household Items": -0.05185806523189885,
+            "Outdoor General Spaces": -0.010276357821210426,
+            "Plants & Greenery": 0.008474913415801949,
+            "Play & Recreation Area": -0.005236235760044243,
+            "Vehicles, Transportation Area": 0.005239597709167867,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.0007687656996020016,
+            "Human Presence & Crowd": 0.0051449028088524605
+        },
+        "activity": {
+            "Passive Actions": -0.009128752481059044,
+            "Movement & Locomotion": 0.04486324248345319,
+            "Observing & Watching": 0.021763810906619496,
+            "Exploring & Investigating": -0.003649184050169521,
+            "Interaction with Items": -0.016926228558630223,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.0010942725187479243,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "73 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.05708332662944671,
+            "Walls, Windows": -0.005340047946197302,
+            "Furniture & Household Items": -0.024779173973903112,
+            "Outdoor General Spaces": -0.027120707501381,
+            "Plants & Greenery": 0.00612949763755035,
+            "Play & Recreation Area": 0.004074354147560589,
+            "Vehicles, Transportation Area": -0.0049238706632557284,
+            "Water & Wet Environment": -0.004097951828552122,
+            "Pet-Related Space": -0.0009819853158066919,
+            "Human Presence & Crowd": -4.3441185461682436e-05
+        },
+        "activity": {
+            "Passive Actions": -0.0808990874092887,
+            "Movement & Locomotion": 0.06095175922986468,
+            "Observing & Watching": -0.03373858143787811,
+            "Exploring & Investigating": 0.035106796811074495,
+            "Interaction with Items": 0.013815398235628149,
+            "Feeding": 0.017978171152117826,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.0006756122316665843,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "32 12": {
+        "environment": {
+            "Indoor Residential Spaces": -0.011509503761136464,
+            "Walls, Windows": 0.006537961684621341,
+            "Furniture & Household Items": -0.01926820554158637,
+            "Outdoor General Spaces": -0.053123917774254195,
+            "Plants & Greenery": -0.012543589574862707,
+            "Play & Recreation Area": 0.001024594918026079,
+            "Vehicles, Transportation Area": 0.0802018650242777,
+            "Water & Wet Environment": 0.002376098465722891,
+            "Pet-Related Space": 0.005492064978468321,
+            "Human Presence & Crowd": 0.0008126315807234427
+        },
+        "activity": {
+            "Passive Actions": 0.04290097879395527,
+            "Movement & Locomotion": -0.06473509942620947,
+            "Observing & Watching": 0.10409657248466408,
+            "Exploring & Investigating": -0.017657188624211832,
+            "Interaction with Items": -0.02200055674616596,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "231 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.0028915090573474744,
+            "Walls, Windows": 0.04918711503166992,
+            "Furniture & Household Items": -0.002176893625143894,
+            "Outdoor General Spaces": -0.03476658275289005,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": 0.02499990746748011,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.012266903972923397,
+            "Pet-Related Space": 0.008340616964542066,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.02392909875861038,
+            "Movement & Locomotion": -0.09098386495456334,
+            "Observing & Watching": -0.027822965952884637,
+            "Exploring & Investigating": -0.016045878265045554,
+            "Interaction with Items": 0.07914815160665903,
+            "Feeding": 0.008930759233892513,
+            "Drinking": -0.0015902649107520858,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.02923489652044421,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "200 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.00690017644629648,
+            "Walls, Windows": 0.03531929271314338,
+            "Furniture & Household Items": -0.009760858955588092,
+            "Outdoor General Spaces": -0.028952209332882832,
+            "Plants & Greenery": -0.02573863423058152,
+            "Play & Recreation Area": 0.0051732552464616895,
+            "Vehicles, Transportation Area": -0.004557570296955363,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.019897135563314187,
+            "Human Presence & Crowd": 0.01057926943724894
+        },
+        "activity": {
+            "Passive Actions": 0.0035562369481164646,
+            "Movement & Locomotion": -0.00838728605777303,
+            "Observing & Watching": 0.014364233739600468,
+            "Exploring & Investigating": -0.020033962062854512,
+            "Interaction with Items": 0.018221762984710156,
+            "Feeding": -0.012499185029032724,
+            "Drinking": 0.0017731792560747445,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": 0.011415520603453896
+        }
+    },
+    "207 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.02976223059326688,
+            "Walls, Windows": -0.011006448584664971,
+            "Furniture & Household Items": -0.04199119844849742,
+            "Outdoor General Spaces": 0.013821032323040383,
+            "Plants & Greenery": 0.03754742793816221,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.003273264411685934,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.0007812462314045051
+        },
+        "activity": {
+            "Passive Actions": 0.02983228647997993,
+            "Movement & Locomotion": -0.04198740686719617,
+            "Observing & Watching": -0.004210215067406486,
+            "Exploring & Investigating": 0.028818348417362943,
+            "Interaction with Items": 0.01716468053227887,
+            "Feeding": -0.02412709200577691,
+            "Drinking": 0.0031322852663435465,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "103 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.07584645545287783,
+            "Walls, Windows": -0.032216561263388566,
+            "Furniture & Household Items": 0.11670589462980957,
+            "Outdoor General Spaces": -0.030429827759653798,
+            "Plants & Greenery": -0.018002867172780563,
+            "Play & Recreation Area": 0.023686944946592067,
+            "Vehicles, Transportation Area": -0.004036057911036197,
+            "Water & Wet Environment": 0.008089295951915997,
+            "Pet-Related Space": 0.01685497997878572,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.060281566929260455,
+            "Movement & Locomotion": -0.05049916537895467,
+            "Observing & Watching": -0.004648965506156927,
+            "Exploring & Investigating": -0.008563188964174434,
+            "Interaction with Items": 0.03252094588854423,
+            "Feeding": -0.017370335249020152,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.0029338020375315427,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "13 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.016976016099600977,
+            "Walls, Windows": -0.04236218074297797,
+            "Furniture & Household Items": -0.00921914714627066,
+            "Outdoor General Spaces": 0.00044468485274375136,
+            "Plants & Greenery": 0.003044319904485289,
+            "Play & Recreation Area": 0.017957653946353347,
+            "Vehicles, Transportation Area": 0.03256774570160007,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.026812050901604878,
+            "Movement & Locomotion": -0.018077208538393175,
+            "Observing & Watching": 0.018240202731848537,
+            "Exploring & Investigating": 0.012911774371254015,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.016375154021280786,
+            "Drinking": 0.005649148248322806,
+            "Interaction with Animals": 0.003164392321425866,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "8 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.013806161241173287,
+            "Walls, Windows": -0.020703929347814537,
+            "Furniture & Household Items": 0.013944994938945049,
+            "Outdoor General Spaces": -0.025952693125819458,
+            "Plants & Greenery": 0.054377476074208037,
+            "Play & Recreation Area": 0.00865656439014819,
+            "Vehicles, Transportation Area": -0.0033964672490598615,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.000545418098389175,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.050933662899108056,
+            "Movement & Locomotion": 0.1412053128218739,
+            "Observing & Watching": -0.028667509597693708,
+            "Exploring & Investigating": -0.0053081090667587705,
+            "Interaction with Items": -0.013691324776281186,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "148 188 203 98 230 19 110": {
+        "environment": {
+            "Indoor Residential Spaces": 0.10827380281992283,
+            "Walls, Windows": 0.06251709491094556,
+            "Furniture & Household Items": -0.05096965016437931,
+            "Outdoor General Spaces": -0.052120707501381,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.004258979185772744,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.00304490531430502,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.04808979144209802,
+            "Movement & Locomotion": -0.022506887386676694,
+            "Observing & Watching": 0.06072484986765844,
+            "Exploring & Investigating": 0.015831335430349952,
+            "Interaction with Items": -0.008809345441747107,
+            "Feeding": -0.004646572525257429,
+            "Drinking": 0.009625791759850039,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.0026705517742812795,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "141 211 145 80 0 133 68 10 28 95 133 28": {
+        "environment": {
+            "Indoor Residential Spaces": 0.07349936672969726,
+            "Walls, Windows": -0.12733252914920482,
+            "Furniture & Household Items": -0.05378919903655976,
+            "Outdoor General Spaces": -0.030504166147997544,
+            "Plants & Greenery": -0.01335671790129677,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.12189317194326055,
+            "Water & Wet Environment": 0.050350669725332586,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.019490776138469612,
+            "Movement & Locomotion": -0.0480800796265356,
+            "Observing & Watching": 0.07451353032300556,
+            "Exploring & Investigating": -0.03058521098619646,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.051732600836330335,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "89 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.0011309456770657311,
+            "Walls, Windows": -0.022800365406514755,
+            "Furniture & Household Items": 0.03831606412133498,
+            "Outdoor General Spaces": -0.014422294802968305,
+            "Plants & Greenery": 0.00235965636770908,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.0027413309807160467,
+            "Water & Wet Environment": -0.00191541214601244,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.016027987385966887
+        },
+        "activity": {
+            "Passive Actions": -0.005402970066751944,
+            "Movement & Locomotion": -0.07520009581759003,
+            "Observing & Watching": 0.020273497940896695,
+            "Exploring & Investigating": -0.016316844258813336,
+            "Interaction with Items": -0.011896422299315767,
+            "Feeding": 0.074233563731928,
+            "Drinking": 0.0229321575252322,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "123 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.10868908521194942,
+            "Walls, Windows": -0.07577194163390494,
+            "Furniture & Household Items": 0.09936257574924195,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.001942131551583695,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.005884016899032732,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.17514643179412526,
+            "Movement & Locomotion": -0.15185051673030603,
+            "Observing & Watching": 0.029134818277626873,
+            "Exploring & Investigating": -0.02207670247768795,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": 0.002899935021250119,
+            "Drinking": 0.003658785792844073,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "239 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.0065657282857614074,
+            "Walls, Windows": 0.09072620464179443,
+            "Furniture & Household Items": -0.0432056750090998,
+            "Outdoor General Spaces": -0.019253212677364434,
+            "Plants & Greenery": -0.024512324308619424,
+            "Play & Recreation Area": 0.00428139348503471,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.009687407675821961
+        },
+        "activity": {
+            "Passive Actions": 0.01906011291710874,
+            "Movement & Locomotion": 0.02843441936858357,
+            "Observing & Watching": -0.0050156112216398485,
+            "Exploring & Investigating": -0.010344039582234357,
+            "Interaction with Items": -0.005034050968778216,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.010916330305921991,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "90 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.026130945677065753,
+            "Walls, Windows": 0.004977412371263035,
+            "Furniture & Household Items": -0.05890615810088724,
+            "Outdoor General Spaces": -0.008866739247412748,
+            "Plants & Greenery": 0.03152632303437575,
+            "Play & Recreation Area": 0.0008997509729574155,
+            "Vehicles, Transportation Area": 0.006980891241506176,
+            "Water & Wet Environment": 0.007806810076209782,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.02791663126893784,
+            "Movement & Locomotion": -0.02536403024381953,
+            "Observing & Watching": 0.033278962421771,
+            "Exploring & Investigating": 0.03756293716195169,
+            "Interaction with Items": 0.0050434684110667455,
+            "Feeding": -0.010793758672443575,
+            "Drinking": -0.0031880610540027743,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "184 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.08695630264508192,
+            "Walls, Windows": 0.007028120797810372,
+            "Furniture & Household Items": 0.027410023852878607,
+            "Outdoor General Spaces": 0.05082751876899293,
+            "Plants & Greenery": 0.01415122982035636,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.0009675193182617,
+            "Human Presence & Crowd": 0.015328882240553017
+        },
+        "activity": {
+            "Passive Actions": -0.050583297935604454,
+            "Movement & Locomotion": 0.06663596975618047,
+            "Observing & Watching": -0.016054370911562338,
+            "Exploring & Investigating": -0.009103729504714976,
+            "Interaction with Items": 0.019710135077733414,
+            "Feeding": -0.00812709200577691,
+            "Drinking": -0.0018547277206694412,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.004177045280774786,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "174 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.019552507560344323,
+            "Walls, Windows": 0.017167660173021626,
+            "Furniture & Household Items": -0.05790695746139883,
+            "Outdoor General Spaces": 0.08110128633212363,
+            "Plants & Greenery": 0.011302502091130345,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.001665611986140337,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.0695086710699328,
+            "Movement & Locomotion": 0.08090462647259836,
+            "Observing & Watching": -0.10035287837424889,
+            "Exploring & Investigating": 0.025523136166926808,
+            "Interaction with Items": -0.005901805220774051,
+            "Feeding": 0.050499773665864875,
+            "Drinking": 0.019996018547987274,
+            "Interaction with Animals": 0.0028751409040939212,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "153 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.0349119991082103,
+            "Walls, Windows": 0.05627257256212875,
+            "Furniture & Household Items": -0.013064303976824523,
+            "Outdoor General Spaces": -0.008628157106990116,
+            "Plants & Greenery": 0.0028282998578249632,
+            "Play & Recreation Area": 0.020463486487613175,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.00039107924744192016,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.05067985995913238,
+            "Movement & Locomotion": -0.07983771445434586,
+            "Observing & Watching": 0.03073510277264821,
+            "Exploring & Investigating": -0.009630045294188663,
+            "Interaction with Items": 0.011183819288259726,
+            "Feeding": 0.0021886974679072996,
+            "Drinking": 0.003303167016172663,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "50 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.18509354411885265,
+            "Walls, Windows": 0.12119056429870068,
+            "Furniture & Household Items": 0.16841810493766152,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": 0.010196803127152425,
+            "Vehicles, Transportation Area": 0.020926469472798692,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.04092232004192364,
+            "Movement & Locomotion": -0.030532569569662243,
+            "Observing & Watching": 0.030956865043493847,
+            "Exploring & Investigating": -0.026631819392355427,
+            "Interaction with Items": 0.027889910358632287,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "0 95 0": {
+        "environment": {
+            "Indoor Residential Spaces": -0.04267247312635303,
+            "Walls, Windows": 0.02848168587553654,
+            "Furniture & Household Items": -0.009760858955588092,
+            "Outdoor General Spaces": 0.02403924365857016,
+            "Plants & Greenery": 0.030671622179674896,
+            "Play & Recreation Area": -0.0016643515911451481,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.040564606346819465,
+            "Movement & Locomotion": 0.105664007139358,
+            "Observing & Watching": -0.07594222137885205,
+            "Exploring & Investigating": 0.07239159759808876,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.004758248729453106,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "69 62": {
+        "environment": {
+            "Indoor Residential Spaces": -0.16603772902172947,
+            "Walls, Windows": 0.13114876444622958,
+            "Furniture & Household Items": 0.14223172677193738,
+            "Outdoor General Spaces": -0.021785079274186506,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.05458329793560446,
+            "Movement & Locomotion": 0.0013026364228471143,
+            "Observing & Watching": 0.00661229575510433,
+            "Exploring & Investigating": 0.06628088587990041,
+            "Interaction with Items": -0.015469352101753767,
+            "Feeding": 0.014334446455761554,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "106 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.061445630991751043,
+            "Walls, Windows": -0.0849604275665769,
+            "Furniture & Household Items": -0.030739879934609075,
+            "Outdoor General Spaces": 0.027924247543574046,
+            "Plants & Greenery": -0.011286419778367064,
+            "Play & Recreation Area": 0.03873968881289526,
+            "Vehicles, Transportation Area": 0.004300238560853495,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.009180668038647541
+        },
+        "activity": {
+            "Passive Actions": -0.024280267632574182,
+            "Movement & Locomotion": 0.06948445460466532,
+            "Observing & Watching": -0.06914528000247142,
+            "Exploring & Investigating": 0.03422960382861835,
+            "Interaction with Items": 0.03231619568379402,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 21": {
+        "environment": {
+            "Indoor Residential Spaces": -0.011928755815471592,
+            "Walls, Windows": 0.10489449363162787,
+            "Furniture & Household Items": 0.0028683029273051247,
+            "Outdoor General Spaces": -0.06251516379135968,
+            "Plants & Greenery": -0.00893802190758114,
+            "Play & Recreation Area": 0.004714012996174662,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.011726155078461642,
+            "Movement & Locomotion": -0.10822117310096241,
+            "Observing & Watching": 0.10661229575510434,
+            "Exploring & Investigating": -0.030056110457095928,
+            "Interaction with Items": 0.04790061126820961,
+            "Feeding": 0.01396814608946119,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 180": {
+        "environment": {
+            "Indoor Residential Spaces": -0.0018218102284460747,
+            "Walls, Windows": -0.047297303289279405,
+            "Furniture & Household Items": 0.015678268845744428,
+            "Outdoor General Spaces": 0.03238435436588559,
+            "Plants & Greenery": 0.016740671240849936,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.013936271818933997,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.037341918625259596,
+            "Movement & Locomotion": 0.03291183182514598,
+            "Observing & Watching": 0.029600801502230767,
+            "Exploring & Investigating": 0.011241098081491922,
+            "Interaction with Items": 0.006192893698423067,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "229 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.045096462918445046,
+            "Walls, Windows": -0.016670097207281034,
+            "Furniture & Household Items": 0.08572985722478327,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.02556179957098824,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.01494576509470234,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.013598520246213774,
+            "Movement & Locomotion": -0.021424636304425593,
+            "Observing & Watching": -0.03126649212368354,
+            "Exploring & Investigating": -0.02637645677744225,
+            "Interaction with Items": -0.02071410734650901,
+            "Feeding": 0.05920624132755642,
+            "Drinking": 0.0052967874308457105,
+            "Interaction with Animals": 0.025715484639960047,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "12 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.02538420583808576,
+            "Walls, Windows": -0.005123597729747076,
+            "Furniture & Household Items": -0.02607787527260441,
+            "Outdoor General Spaces": 0.05123427085359736,
+            "Plants & Greenery": 0.029506121014173728,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.006291658561058268,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.08258484365731589,
+            "Movement & Locomotion": -0.050319782456208925,
+            "Observing & Watching": 0.05233500961941112,
+            "Exploring & Investigating": -0.04025417198259108,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": 0.0024215805605947716,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "74 88 223 206 157 95 72 173 95 80 101 16 206 68 34 157 202": {
+        "environment": {
+            "Indoor Residential Spaces": 0.07178311959010919,
+            "Walls, Windows": -0.04695495477849543,
+            "Furniture & Household Items": -0.057698428632288204,
+            "Outdoor General Spaces": -0.02649958948895864,
+            "Plants & Greenery": 0.02621231337254,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.04911115790229674,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.009687407675821961
+        },
+        "activity": {
+            "Passive Actions": -0.04689099024329679,
+            "Movement & Locomotion": -0.011517876397665688,
+            "Observing & Watching": 0.07071485985766846,
+            "Exploring & Investigating": -0.03371911412009959,
+            "Interaction with Items": 0.01786398123157957,
+            "Feeding": -0.02412709200577691,
+            "Drinking": 0.005529887663945944,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.026946276050005557,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "151 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.0405357209896009,
+            "Walls, Windows": -0.00891147651762586,
+            "Furniture & Household Items": 0.05914939745466832,
+            "Outdoor General Spaces": -0.007477850358523858,
+            "Plants & Greenery": 0.016248545256597968,
+            "Play & Recreation Area": 0.00020530652851297009,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.005611320719300221
+        },
+        "activity": {
+            "Passive Actions": -0.014353412878133187,
+            "Movement & Locomotion": -0.03892724863462413,
+            "Observing & Watching": 0.05833643368613883,
+            "Exploring & Investigating": -0.003126718010462104,
+            "Interaction with Items": 0.017687146571986286,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.01840096008405618,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "66 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.09161098980680527,
+            "Walls, Windows": -0.012943734582141986,
+            "Furniture & Household Items": 0.01815477379875434,
+            "Outdoor General Spaces": 0.00260279480276647,
+            "Plants & Greenery": 0.0827808033211141,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.0023206260513208036,
+            "Human Presence & Crowd": 0.027452718568762587
+        },
+        "activity": {
+            "Passive Actions": 0.03313600031000963,
+            "Movement & Locomotion": 0.010074566247408517,
+            "Observing & Watching": -0.01970349371857988,
+            "Exploring & Investigating": 0.0035278494426534412,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.015355162181215506,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.030500173635175355,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "148 188 203 98 230 19": {
+        "environment": {
+            "Indoor Residential Spaces": 0.0707874342266841,
+            "Walls, Windows": 0.14089768378771766,
+            "Furniture & Household Items": -0.07141676030614594,
+            "Outdoor General Spaces": -0.06234426257226432,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.002052187638900949,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.08449782785013438,
+            "Movement & Locomotion": 0.08249921761942833,
+            "Observing & Watching": 0.03652682566963425,
+            "Exploring & Investigating": 0.010725330324344855,
+            "Interaction with Items": -0.01974285637525804,
+            "Feeding": -0.015580083458768362,
+            "Drinking": -0.0013077191736608935,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 3": {
+        "environment": {
+            "Indoor Residential Spaces": 0.07255951710563713,
+            "Walls, Windows": 0.008945666339516989,
+            "Furniture & Household Items": -0.006326793021522156,
+            "Outdoor General Spaces": -0.04319213607280957,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.001282788709582268,
+            "Vehicles, Transportation Area": 0.017099938860553793,
+            "Water & Wet Environment": 0.008997286266685972,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.06541670206439554,
+            "Movement & Locomotion": -0.06536403024381954,
+            "Observing & Watching": 0.06994562908843768,
+            "Exploring & Investigating": -0.029103729504714976,
+            "Interaction with Items": -0.008289864922266587,
+            "Feeding": -0.01412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "39 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.006221995499404831,
+            "Walls, Windows": -0.055480103968606254,
+            "Furniture & Household Items": 0.0701788092193742,
+            "Outdoor General Spaces": -0.011154320946759153,
+            "Plants & Greenery": -0.03644753317477458,
+            "Play & Recreation Area": 0.048612169273611006,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.013863953059543448,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.09973768971871655,
+            "Movement & Locomotion": -0.11598131419443683,
+            "Observing & Watching": 0.037476493285968526,
+            "Exploring & Investigating": 0.0002789865446677364,
+            "Interaction with Items": -0.0035985068975752307,
+            "Feeding": -0.011781412993431231,
+            "Drinking": 0.002490951291676237,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "55 32": {
+        "environment": {
+            "Indoor Residential Spaces": 0.02228479183091192,
+            "Walls, Windows": 0.019934677328527994,
+            "Furniture & Household Items": 0.02100837181364268,
+            "Outdoor General Spaces": -0.031516311896985394,
+            "Plants & Greenery": -0.030866839358786646,
+            "Play & Recreation Area": 0.0051732552464616895,
+            "Vehicles, Transportation Area": 0.013391147651762587,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.0739881306358241,
+            "Movement & Locomotion": -0.13679260167239096,
+            "Observing & Watching": 0.11613610527891388,
+            "Exploring & Investigating": -0.011008491409476878,
+            "Interaction with Items": -0.018766055398457063,
+            "Feeding": -0.014603282481967385,
+            "Drinking": -0.00033091819685991675,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "60 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.09890322290478848,
+            "Walls, Windows": -0.06460454582455655,
+            "Furniture & Household Items": 0.012325965111433995,
+            "Outdoor General Spaces": -0.02047289986347435,
+            "Plants & Greenery": -0.02644947454538223,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.02001719487186921,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.004157100021298447,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.07680552015782666,
+            "Movement & Locomotion": 0.0013026364228471143,
+            "Observing & Watching": -0.03783214868934011,
+            "Exploring & Investigating": -0.004659285060270531,
+            "Interaction with Items": 0.04948791285551119,
+            "Feeding": 0.0758729079942231,
+            "Drinking": 0.0012563833904416701,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "95 32": {
+        "environment": {
+            "Indoor Residential Spaces": 0.12395703263358748,
+            "Walls, Windows": -0.020867998256756295,
+            "Furniture & Household Items": 0.035055194556117594,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": 0.007179944209672391,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.1709068981428269,
+            "Movement & Locomotion": -0.10654050083205484,
+            "Observing & Watching": 0.016416217323731802,
+            "Exploring & Investigating": -0.039299807936087526,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": 0.024824219042812096,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "19 95 19": {
+        "environment": {
+            "Indoor Residential Spaces": 0.09542919129110083,
+            "Walls, Windows": 0.023983260324479394,
+            "Furniture & Household Items": 0.03612308166519462,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.026281411143151634,
+            "Movement & Locomotion": -0.16536403024381954,
+            "Observing & Watching": 0.12296449701296597,
+            "Exploring & Investigating": 0.026367968608492567,
+            "Interaction with Items": -0.009421940393964701,
+            "Feeding": 0.051344606107430635,
+            "Drinking": 0.009013196807632445,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "15 138 55": {
+        "environment": {
+            "Indoor Residential Spaces": 0.06413094567706568,
+            "Walls, Windows": 0.026088523482374143,
+            "Furniture & Household Items": 0.04131606412133498,
+            "Outdoor General Spaces": -0.06997785035852386,
+            "Plants & Greenery": -0.04625145474340203,
+            "Play & Recreation Area": 0.005788639861846304,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.002256109922288546,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.12431578463320292,
+            "Movement & Locomotion": -0.11031815868418651,
+            "Observing & Watching": 0.005083243767336765,
+            "Exploring & Investigating": -0.030755105651503967,
+            "Interaction with Items": 0.03593031856397195,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.0006804157940639363,
+            "Interaction with Animals": 0.004586766263535247,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "46 95 150 0 52 108 68 155 229 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.03976730931342942,
+            "Walls, Windows": -0.13391147651762586,
+            "Furniture & Household Items": -0.08668393587866502,
+            "Outdoor General Spaces": 0.23002214964147613,
+            "Plants & Greenery": -0.00988781837976567,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.21784860405805345,
+            "Movement & Locomotion": 0.18157474526638454,
+            "Observing & Watching": 0.0440272617414989,
+            "Exploring & Investigating": 0.0631411684544687,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "161 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.0014200747310975093,
+            "Walls, Windows": -0.11350331325231974,
+            "Furniture & Household Items": 0.0663772886111309,
+            "Outdoor General Spaces": 0.011654802702700626,
+            "Plants & Greenery": 0.0047689534198632755,
+            "Play & Recreation Area": 0.010196803127152425,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.03195646994015536,
+            "Pet-Related Space": 0.004460191554941606,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": 0.008635092868993222,
+            "Movement & Locomotion": -0.05042150150818736,
+            "Observing & Watching": 0.0008651693183227283,
+            "Exploring & Investigating": 0.04285029348379077,
+            "Interaction with Items": -0.028289864922266587,
+            "Feeding": 0.0448384252356024,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "46 95 246 189 76 221 3 180 95": {
+        "environment": {
+            "Indoor Residential Spaces": 0.008483886853536293,
+            "Walls, Windows": -0.12655853534115527,
+            "Furniture & Household Items": -0.05727217117278267,
+            "Outdoor General Spaces": 0.17266920846500555,
+            "Plants & Greenery": 0.04198383937424503,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.15962531474232716,
+            "Movement & Locomotion": 0.20438386891584434,
+            "Observing & Watching": 0.008012855979193989,
+            "Exploring & Investigating": 0.009719799907049728,
+            "Interaction with Items": -0.019886503577728774,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "93 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.07431950477338467,
+            "Walls, Windows": -0.043821386427535775,
+            "Furniture & Household Items": -0.023620872815601962,
+            "Outdoor General Spaces": 0.029121248740575242,
+            "Plants & Greenery": 0.10690169840975111,
+            "Play & Recreation Area": 0.007806657879864322,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.022221681079660584
+        },
+        "activity": {
+            "Passive Actions": 0.03257266536714787,
+            "Movement & Locomotion": 0.027296520214896064,
+            "Observing & Watching": -0.00409106815926874,
+            "Exploring & Investigating": -0.030755105651503967,
+            "Interaction with Items": 0.008407382784155433,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.005351357207380291,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "122 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.03971063848135015,
+            "Walls, Windows": -0.015099595329507054,
+            "Furniture & Household Items": -0.03717898538361551,
+            "Outdoor General Spaces": 0.019131060532565247,
+            "Plants & Greenery": 0.03295646604867718,
+            "Play & Recreation Area": 0.009590620059866106,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.04064509390459262,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": 0.005095644151643456
+        },
+        "activity": {
+            "Passive Actions": -0.05458329793560446,
+            "Movement & Locomotion": 0.009054574407343252,
+            "Observing & Watching": -0.032147394167376275,
+            "Exploring & Investigating": -0.025847915551226605,
+            "Interaction with Items": 0.029849669961454342,
+            "Feeding": 0.06889616380817658,
+            "Drinking": 0.0017731792560747445,
+            "Interaction with Animals": 0.007040361313673928,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "121 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.20550170738415874,
+            "Walls, Windows": 0.08037423776808841,
+            "Furniture & Household Items": -0.025459446082746653,
+            "Outdoor General Spaces": -0.01895744219525855,
+            "Plants & Greenery": 0.10680976974639389,
+            "Play & Recreation Area": -7.278505500635593e-06,
+            "Vehicles, Transportation Area": -0.00968577542516049,
+            "Water & Wet Environment": 0.08297687810342066,
+            "Pet-Related Space": -0.005743890077711454,
+            "Human Presence & Crowd": -0.004805345947366445
+        },
+        "activity": {
+            "Passive Actions": -0.07223035675913386,
+            "Movement & Locomotion": -0.04771697142029013,
+            "Observing & Watching": 0.02818092320608473,
+            "Exploring & Investigating": 0.08030803520116739,
+            "Interaction with Items": -0.004760453157560705,
+            "Feeding": -0.02412709200577691,
+            "Drinking": 0.02543938992638938,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": 0.019706457045480668,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "0 95 0 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.03011905432293427,
+            "Walls, Windows": -0.0922448098509592,
+            "Furniture & Household Items": 0.007066064121334981,
+            "Outdoor General Spaces": 0.05502214964147614,
+            "Plants & Greenery": 0.016248545256597968,
+            "Play & Recreation Area": -0.010211360138153696,
+            "Vehicles, Transportation Area": 0.031980891241506174,
+            "Water & Wet Environment": -0.008859856590456884,
+            "Pet-Related Space": 0.015089443255621879,
+            "Human Presence & Crowd": 0.016027987385966887
+        },
+        "activity": {
+            "Passive Actions": 0.040654797302490775,
+            "Movement & Locomotion": 0.013207398327609032,
+            "Observing & Watching": 0.03042181956462814,
+            "Exploring & Investigating": -0.03719896759995307,
+            "Interaction with Items": -0.016385103017504683,
+            "Feeding": -0.012222330101015005,
+            "Drinking": -0.009854727720669441,
+            "Interaction with Animals": -0.004587545663070258,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    },
+    "238 95": {
+        "environment": {
+            "Indoor Residential Spaces": -0.05586905432293432,
+            "Walls, Windows": -0.05391147651762586,
+            "Furniture & Household Items": 0.08131606412133499,
+            "Outdoor General Spaces": -0.021977850358523857,
+            "Plants & Greenery": -0.02225145474340203,
+            "Play & Recreation Area": 0.005788639861846304,
+            "Vehicles, Transportation Area": 0.01431422457483951,
+            "Water & Wet Environment": 0.023140143409543117,
+            "Pet-Related Space": 0.002256109922288546,
+            "Human Presence & Crowd": 0.027194654052633556
+        },
+        "activity": {
+            "Passive Actions": 0.13772439437208783,
+            "Movement & Locomotion": -0.078825568705358,
+            "Observing & Watching": -0.025438986296177718,
+            "Exploring & Investigating": -0.0010268064277918973,
+            "Interaction with Items": -0.009059095691497356,
+            "Feeding": -0.02412709200577691,
+            "Drinking": -0.0002393431052848255,
+            "Interaction with Animals": 0.005027838952314358,
+            "Water-Related Activities": -0.0038229547192252145,
+            "Interaction with Humans": -0.0002123863732902897
+        }
+    }
+}
