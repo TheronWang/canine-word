@@ -1,101 +1,214 @@
-# Canine Phonetic Alphabet
+<div align="center">
 
-Code for the paper **Toward Automatic Discovery of a Canine Phonetic Alphabet** (ACL 2025, Outstanding Paper).
-Theron S. Wang, Xingyuan Li, Hridayesh Lekhak, Tuan M. Dang, Mengyue Wu, Kenny Q. Zhu.
-[Paper](https://aclanthology.org/2025.acl-long.451/)
+# 🐕 Toward Automatic Discovery of a Canine Phonetic Alphabet
 
-From 6,235 hours of YouTube dog videos, the pipeline cuts 306,233 dog vocal segments (152 h). It transcribes them into 250 initial vocal units with a dog-trained HuBERT. It then refines those units with minimal pairs into **105 cognitive vocal units** (the canine phonetic alphabet) and **69 vocal patterns**.
+**Theron S. Wang · Xingyuan Li · Hridayesh Lekhak · Tuan M. Dang · Mengyue Wu · Kenny Q. Zhu**
 
-```
-videos ─► 1 preprocessing: PANNs first cut ─► AudioSep ─► BEATs SED (pause > 0.5 s)
-       ─► 2 transcription: 2-stage Dog-HuBERT ─► layer-11 k-means (K = 250)
-       ─► 3 refinement: energy segmentation (ρ = 3) ─► minimal pairs ─► JS-divergence merging
-       ─► cognitive vocal units + vocal patterns
-```
+University of Texas at Arlington · Shanghai Jiao Tong University
 
-## Models and data
+*ACL 2025 (Main Conference, Long Paper)* · 🏆 **Outstanding Paper Award**
 
-Large files are on the Hugging Face Hub:
+[![Paper](https://img.shields.io/badge/ACL%20Anthology-2025.acl--long.451-b31b1b?logo=readthedocs&logoColor=white)](https://aclanthology.org/2025.acl-long.451/)
+[![Models](https://img.shields.io/badge/%F0%9F%A4%97%20Models-canine--phonetic--models-ffcc4d)](https://huggingface.co/ArlingtonCL2/canine-phonetic-models)
+[![Data](https://img.shields.io/badge/%F0%9F%A4%97%20Data-canine--phonetic--data-ffcc4d)](https://huggingface.co/datasets/ArlingtonCL2/canine-phonetic-data)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](#-quick-start)
 
-- [`ArlingtonCL2/canine-phonetic-models`](https://huggingface.co/ArlingtonCL2/canine-phonetic-models): the BEATs dog detector, Dog-HuBERT (`dog_hubert_stage2_130k.pt`), the K = 250 k-means, and the stage-1/2 HuBERT target k-means.
-- [`ArlingtonCL2/canine-phonetic-data`](https://huggingface.co/datasets/ArlingtonCL2/canine-phonetic-data) (dataset): transcriptions of all 306,233 vocal segments, with timestamps and candidate vocal patterns, plus the detector's segment boundaries and video durations.
+<img src="assets/overview.png" width="92%" alt="From online dog videos to sequences of cognitive vocal units">
+
+</div>
+
+---
+
+## 📖 Overview
+
+Dogs communicate through vocalizations, but the phonetic properties of those vocalizations are poorly understood. This repository contains the code for an iterative algorithm, inspired by how linguists find the phonemes of an unknown language, that:
+
+1. 🎧 **cleans and segments** dog vocalizations from thousands of hours of YouTube video,
+2. 🧩 **transcribes** them into vocal units with a dog-trained HuBERT, and
+3. 🔁 **refines** those units with **minimal pairs** into a canine phonetic alphabet, while discovering **vocal patterns** that co-occur with specific environments and activities.
+
+## ✨ Highlights
+
+<div align="center">
+
+| 🎬 Videos | 🔊 Dog vocalizations | ✂️ Vocal segments | 🔤 Cognitive vocal units | 🗣️ Vocal patterns |
+|:---:|:---:|:---:|:---:|:---:|
+| **6,235 h** | **152 h** | **306,233** | **250 → 105** | **69** |
+
+</div>
+
+- **The largest dog vocalization dataset to date**: six breeds (Shiba Inu, Chihuahua, Husky, Pitbull, Labrador, German Shepherd).
+- **Minimal-pair refinement** removes noise units and merges units that occur in the same contexts, giving a phonetic alphabet of **105** cognitive vocal units.
+- **Contextual vocal patterns**: 69 patterns with strong associations to particular environments and activities. The pattern frequencies follow **Zipf's law**.
+
+## 🚀 Quick start
 
 ```bash
+git clone https://github.com/TheronWang/canine-word.git
+cd canine-word
 pip install huggingface_hub
-python download.py            # writes ./checkpoints and ./data
+python download.py            # models → ./checkpoints, data → ./data (~1.3 GB)
 ```
 
-Audio and video are not redistributed. Segment names give the source YouTube channel and video.
+Transcribe your own dog audio into vocal units:
 
-## Code
+```python
+import joblib, torch
+from fairseq import checkpoint_utils
 
-The scripts are the ones used for the paper, kept as they were run. Many contain absolute paths from our servers, both in their defaults and in the example commands in their docstrings. Change these to your own paths.
+(model,), cfg, task = checkpoint_utils.load_model_ensemble_and_task(["checkpoints/dog_hubert_stage2_130k.pt"])
+model.eval()
+km = joblib.load("checkpoints/kmeans_layer11_k250.pkl")
 
-| Folder | Paper section | What it does |
+wav = torch.zeros(1, 16000)  # your 16 kHz mono dog vocalization
+with torch.no_grad():
+    feats, _ = model.extract_features(source=wav, padding_mask=None, mask=False, output_layer=11)
+units = km.predict(feats[0].numpy())  # one vocal unit (0-249) per 20 ms frame
+```
+
+Reproduce Table 2 from the released data:
+
+```bash
+python evaluation/dataset_table2.py data
+```
+
+## 📦 Models & data
+
+| | Hugging Face | Contents |
 |---|---|---|
-| [`1_preprocessing/first_cut/`](1_preprocessing/first_cut) | §2.1 | `first_cut.py`: pretrained [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn) Cnn14_DecisionLevelMax (Dog class, threshold 0.05, ±1 s) finds regions with dog sounds. |
-| [`1_preprocessing/audiosep/`](1_preprocessing/audiosep) | §2.1 | `separate.py` runs [AudioSep](https://github.com/Audio-AGI/AudioSep) with the text query `"Dog"` on each region. |
-| [`1_preprocessing/sed/train/`](1_preprocessing/sed/train) | §2.1, §3 | Fine-tunes the DCASE 2023 Task 4 baseline with a pretrained BEATs encoder (`beats_train_stage1.py`, `beats_stage1_trainer.py`, `CRNN_beats*.py`). `frozen_udesed.yaml` holds the settings: a 4-layer RNN, 256-dim CNN output, lr 0.001, 200 epochs, batch size 4. The same file configures inference. |
-| [`1_preprocessing/sed/inference/`](1_preprocessing/sed/inference) | §2.1 | `second_cut.py` runs the detector (checkpoint epoch 109 / step 6160, threshold 0.6713) and merges detections less than 0.5 s apart into vocal segments. `test.py` evaluates the checkpoint. |
-| [`1_preprocessing/dataset/`](1_preprocessing/dataset) | Table 2 | `data_statistics.py::get_statistics_data` writes per-video durations. `segment_statistics.py` counts segments and hours per breed. |
-| [`2_transcription/`](2_transcription) | §2.2, §3 | `balance_data.py` cuts clips longer than 5 s into 5 s windows with a 1 s overlap; clips shorter than 0.35 s are dropped. `hubert_config/` holds the HuBERT training configs. `kmeans/` has the cluster sweep (`find_cluster_iter3.py`, its output `find_cluster_from_iter2_130k_11th.txt`) and the elbow plot (`plot_elbow.py`). `transcribe.py` labels every segment with layer-11 features and K = 250. |
-| [`3_refinement/`](3_refinement) | §2.3, Alg. 1–2 | `word_finder_energy.py`: energy-based segmentation into candidate vocal patterns with [auditok](https://github.com/amsehili/auditok) (threshold = ρ × RMS). `phoneme_finder.py`: the `PhonemeFinder` class. It finds minimal pairs, computes contextual JS divergence, merges units below the percentile threshold (union-find) and filters units and patterns until nothing changes. |
-| [`evaluation/abx/`](evaluation/abx) | §4.1.2, Table 4 | `phone_eval.py` generates ABX triplets and scores answers. `samples/` holds the answer keys of the 500 initial-unit and 210 final-unit triplets. |
-| [`evaluation/downstream/`](evaluation/downstream) | §4.1.3, Tables 6–7 | `inference.py` transcribes the AudioSet bark clips. `dt_aduio_classification.py` does bark-type classification and `dt_activity_classification.py` does surroundings/ear/tail classification, each with LR, RF and XGBoost on MFCC, frame, vocal-unit and cognitive-unit features. `results/context/` holds the Table 7 output. |
-| [`evaluation/vocal_patterns/`](evaluation/vocal_patterns) | §4.2, Figs 5–6, Table 11 | `word_meaning.py` takes 3 frames from 3 s before to 3 s after each pattern occurrence (`process_sentence`). It maps the Janus-Pro descriptions to categories with the CSVs in `category_mapping/` (`merge_word_meaning`) and computes the relative frequency of Eq. 1 (`wordMeaningAnalyzer.generate_word_meaning_distribution_plot`). `plot_word_distribution2` draws Figure 6. `janus_describe_frames.py` runs Janus-Pro-7B on the frames. `word_analysis.ipynb` computes the pattern durations in Table 11. |
-| [`evaluation/dataset_table2.py`](evaluation/dataset_table2.py) | Table 2 | Recomputes Table 2 from the released data. |
-| [`results/`](results) | Table 11 | `vocal_patterns_69_durations.json`: mean and std duration of the 69 vocal patterns. |
+| 🧠 | [`ArlingtonCL2/canine-phonetic-models`](https://huggingface.co/ArlingtonCL2/canine-phonetic-models) | BEATs dog sound event detector · Dog-HuBERT · K = 250 k-means · stage-1/2 HuBERT targets |
+| 📊 | [`ArlingtonCL2/canine-phonetic-data`](https://huggingface.co/datasets/ArlingtonCL2/canine-phonetic-data) | Transcriptions of all 306,233 vocal segments with timestamps and candidate vocal patterns · detector segment boundaries · video durations |
 
-## Step by step
+> [!NOTE]
+> Audio and video are not redistributed. Segment names (`<channel>+<video>+<region>+<segment>`) identify the source YouTube video.
 
-### 1. Preprocessing
+## 🗂️ Repository structure
 
-1. **First cut.** Put `first_cut/` inside a clone of audioset_tagging_cnn as `work/` and run `first_cut.py` on the raw video audio.
-2. **AudioSep.** Put `audiosep/` inside a clone of AudioSep as `work/` and run `separate.py` with `--text Dog`.
-3. **Sound event detection.** The detector code builds on [ATST-SED](https://github.com/Audio-WestlakeU/ATST-SED). Place `sed/train/*` under its `train/`, the `CRNN_beats*.py` files under `desed_task/nnet/`, and `sed/inference/*` in a work folder. The pretrained BEATs encoder is `BEATs_iter3_plus_AS2M.pt`. The detector is post-trained on more than 9,000 s of manually labelled pure dog vocalizations with a learning rate of 0.001 for 200 epochs, batch size 4, on two NVIDIA RTX 4090 GPUs (about 6 hours). The released checkpoint `beats_sed_dog.ckpt` reaches an F1 score of 0.8556 on the test set.
+```
+canine-word/
+├── 1_preprocessing/            # §2.1  videos → clean dog vocal segments
+│   ├── first_cut/              #       PANNs: find regions with dog sounds
+│   ├── audiosep/               #       AudioSep with the text query "Dog"
+│   ├── sed/train/              #       DCASE 2023 baseline + BEATs encoder, post-training
+│   ├── sed/inference/          #       cut segments (pauses > 0.5 s)
+│   └── dataset/                #       Table 2 statistics
+├── 2_transcription/            # §2.2  segments → vocal units
+│   ├── hubert_config/          #       HuBERT training configs
+│   ├── kmeans/                 #       cluster sweep + elbow plot
+│   ├── balance_data.py         #       5 s windows, 1 s overlap
+│   ├── transcribe.py           #       layer-11 features → K = 250 units
+│   └── trim_checkpoint.py
+├── 3_refinement/               # §2.3  minimal-pair refinement (Algorithms 1-2)
+│   ├── word_finder_energy.py   #       energy segmentation into candidate patterns
+│   └── phoneme_finder.py       #       minimal pairs, JS divergence, merging
+├── evaluation/                 # §4
+│   ├── abx/                    #       ABX test (Table 4)
+│   ├── downstream/             #       bark type & context classification (Tables 6-7)
+│   ├── vocal_patterns/         #       Janus-Pro context, Eq. 1, Figures 5-6, Table 11
+│   └── dataset_table2.py
+├── results/                    # Table 11 pattern durations
+├── assets/                     # figures used in this README
+└── download.py
+```
 
-### 2. Transcription (Dog-HuBERT)
+The scripts are the ones used for the paper. Many contain absolute paths from our servers, both in their defaults and in the example commands in their docstrings. Change these to your own paths before running.
 
-We trained a three-stage HuBERT with the standard [fairseq HuBERT recipe](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert) and the configs in `2_transcription/hubert_config/`:
+## 🔬 Pipeline
+
+### 1️⃣ Preprocessing: videos → vocal segments
+
+<details>
+<summary><b>First cut → AudioSep → BEATs sound event detection</b></summary>
+
+1. **First cut.** Put `first_cut/` inside a clone of [audioset_tagging_cnn](https://github.com/qiuqiangkong/audioset_tagging_cnn) as `work/` and run `first_cut.py` on the raw video audio. It uses Cnn14_DecisionLevelMax with the Dog class, threshold 0.05 and ±1 s.
+2. **AudioSep.** Put `audiosep/` inside a clone of [AudioSep](https://github.com/Audio-AGI/AudioSep) as `work/` and run `separate.py` with `--text Dog`.
+3. **Sound event detection.** The detector builds on [ATST-SED](https://github.com/Audio-WestlakeU/ATST-SED):
+   - Place `sed/train/*` under its `train/`, the `CRNN_beats*.py` files under `desed_task/nnet/`, and `sed/inference/*` in a work folder. The pretrained BEATs encoder is `BEATs_iter3_plus_AS2M.pt`.
+   - The DCASE 2023 Task 4 baseline gets a 4-layer RNN classifier and a 256-dim CNN encoder output.
+   - It is post-trained on more than 9,000 s of manually labelled pure dog vocalizations: lr 0.001, 200 epochs, batch size 4, two NVIDIA RTX 4090 GPUs (about 6 h). All of this is in `frozen_udesed.yaml`.
+   - The released `beats_sed_dog.ckpt` reaches **F1 = 0.8556**.
+   - `second_cut.py` runs it with threshold 0.6713 and merges detections less than 0.5 s apart into vocal segments.
+
+</details>
+
+### 2️⃣ Transcription: segments → vocal units
+
+<details>
+<summary><b>Three-stage Dog-HuBERT + K-means (K = 250)</b></summary>
+
+We train HuBERT with the standard [fairseq recipe](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert) and the configs in `2_transcription/hubert_config/`. Clips shorter than 0.35 s are dropped; clips longer than 5 s are cut into 5 s windows with a 1 s overlap (`balance_data.py`).
 
 | Stage | Clusters | Released file |
-|---|---|---|
+|:---:|:---:|---|
 | 1 | 100 (MFCC k-means) | `stage1_targets_mfcc_k100.pkl` |
 | 2 | 200 | `stage2_targets_layer6_k200.pkl`, model `dog_hubert_stage2_130k.pt` |
 | 3 | 250, chosen with the elbow method (`kmeans/`) | `kmeans_layer11_k250.pkl` |
 
-The learning rate is 1e-4. Stages 1 and 2 took 20 and 18 hours on two NVIDIA RTX 4090 GPUs with a batch size of 4. The vocal units are the K = 250 clusters of layer-11 features of the stage-2 model. `transcribe.py` writes one label array per segment; these are released, merged with their timestamps, in `transcriptions_km250.jsonl.gz`. `trim_checkpoint.py` removes the optimizer state for release; the trimmed checkpoint gives identical features.
+- **Training:** learning rate 1e-4. Stages 1 and 2 took 20 h and 18 h on two NVIDIA RTX 4090 GPUs with a batch size of 4.
+- **Vocal units:** the K = 250 clusters of layer-11 features of the stage-2 model. `transcribe.py` labels every segment.
+- **Release check:** `trim_checkpoint.py` removes the optimizer state for release; the trimmed model gives identical features.
 
-### 3. Vocal unit refinement
+</details>
+
+### 3️⃣ Vocal unit refinement: minimal pairs
+
+<div align="center">
+<img src="assets/refinement.png" width="72%" alt="Vocal unit refinement: mutual filtering and merging">
+</div>
+
+<details>
+<summary><b>Energy segmentation → mutual filtering → JS-divergence merging</b></summary>
+
+1. **Candidate vocal patterns.** `word_finder_energy.py` splits each segment at low-energy pauses with [auditok](https://github.com/amsehili/auditok). The threshold is ρ × RMS, with ρ = 3.
+2. **Mutual filtering (Algorithm 1).** Keep only the vocal units that are the contrasting unit of at least one minimal pair. Keep only the patterns made entirely of those units.
+3. **Merging (Algorithm 2).** Compare the contexts of each minimal pair with the Jensen–Shannon divergence. Merge unit pairs below the 5th percentile, update the transcriptions, and repeat until nothing changes. Patterns seen fewer than K = 5 times are discarded.
 
 ```python
 from phoneme_finder import PhonemeFinder
 
 finder = PhonemeFinder(parse_mode="energy",
-                       parsed_transcription_file_path="metadata_trans.json",
-                       valid_word_cnt_threshold=5,   # K: drop patterns seen fewer than 5 times
-                       percentile=5)                 # merge unit pairs below the 5th-percentile JS divergence
+                       parsed_transcription_file_path="metadata_trans.json",  # from word_finder_energy.py
+                       valid_word_cnt_threshold=5,   # K
+                       percentile=5)                 # JS-divergence merging threshold
 finder.find_phonemes(context_mode="phoneme", num_context_phoneme=3, phoneme_merge_threshold=0.0)
 ```
 
-- The input `metadata_trans.json` is written by `word_finder_energy.py` with ρ = 3 (`--threshold_coeffcient 3`). It holds the same fields as the released `transcriptions_km250.jsonl.gz`.
-- We tried K ∈ {1, 3, 5} and the 5th, 10th and 15th percentiles, and selected K = 5 and the 5th percentile.
-- Each run writes `config.json` (the cognitive vocal units and vocal patterns) and `mapping_phoneme.json` (the merged units). The paper's result is 105 cognitive vocal units and 69 vocal patterns.
+We tried K ∈ {1, 3, 5} and the 5th/10th/15th percentiles, and selected K = 5 and the 5th percentile. Each run writes `config.json` (the cognitive vocal units and vocal patterns) and `mapping_phoneme.json` (the merged units).
 
-## Reproducing the evaluation
+</details>
 
-| Result | How | Status |
+## 📊 Results & evaluation
+
+<div align="center">
+<img src="assets/evaluation.png" width="62%" alt="Evaluation: ABX test and downstream tasks">
+</div>
+
+| Result | Code | Notes |
 |---|---|---|
-| Table 2, dataset | `python evaluation/dataset_table2.py data` | Exact: 6,235 h of video, 152 h of vocalizations, 306,233 segments |
-| SED F1 0.8556 | `1_preprocessing/sed/inference/test.py` on `beats_sed_dog.ckpt` | F1 0.8556 |
-| Table 4, ABX | `evaluation/abx/phone_eval.py` | Answer keys for the 500 initial-unit and 210 final-unit triplets are in `evaluation/abx/samples/`. |
-| Table 6, bark type | `evaluation/downstream/dt_aduio_classification.py` (`hubert_feature_ml_method_single`) | See Table 6 of the paper. |
-| Table 7, bark context | `evaluation/downstream/dt_activity_classification.py` (`activity_classification_ml`) | Output in `evaluation/downstream/results/context/` (`f1-score`, macro avg). Labels: 1,008 valid clips annotated by five people. |
-| Figure 5, Eq. 1 | `evaluation/vocal_patterns/word_meaning.py` | Relative frequencies of the 10 environment and 10 activity categories for every pattern, in `evaluation/vocal_patterns/results/relative_frequency.json`. |
-| Figure 6, Zipf | `word_meaning.py::plot_word_distribution2` | Top 200 vocal patterns; the paper's figure is `evaluation/vocal_patterns/results/figure6_zipf.png`. |
-| Table 11, the 69 patterns | `results/vocal_patterns_69_durations.json`, `evaluation/vocal_patterns/results/vocal_pattern_summaries.json` | Durations and descriptions match Table 11. |
+| **Table 2**: dataset | [`evaluation/dataset_table2.py`](evaluation/dataset_table2.py) | 6,235 h of video, 152 h of vocalizations, 306,233 segments |
+| **SED F1 0.8556** | [`1_preprocessing/sed/inference/test.py`](1_preprocessing/sed/inference/test.py) | on `beats_sed_dog.ckpt` |
+| **Table 4**: ABX test | [`evaluation/abx/phone_eval.py`](evaluation/abx/phone_eval.py) | answer keys of the 500 initial-unit and 210 final-unit triplets in `evaluation/abx/samples/` |
+| **Table 6**: bark type | [`dt_aduio_classification.py`](evaluation/downstream/dt_aduio_classification.py) | LR / RF / XGBoost on MFCC, frame, vocal-unit and cognitive-unit embeddings |
+| **Table 7**: bark context | [`dt_activity_classification.py`](evaluation/downstream/dt_activity_classification.py) | surroundings / ear / tail; output in `evaluation/downstream/results/context/`; 1,008 clips labelled by five annotators |
+| **Figure 5**, Eq. 1 | [`evaluation/vocal_patterns/word_meaning.py`](evaluation/vocal_patterns/word_meaning.py) | Janus-Pro-7B descriptions → 10 environment + 10 activity categories → relative frequency |
+| **Figure 6**: Zipf | `word_meaning.py::plot_word_distribution2` | top 200 vocal patterns |
+| **Table 11**: 69 patterns | [`results/vocal_patterns_69_durations.json`](results/vocal_patterns_69_durations.json) | durations and summaries of every pattern |
 
-## Citation
+<details>
+<summary><b>📈 Figure 6: the 200 most frequent vocal patterns follow Zipf's law</b></summary>
+<div align="center">
+<img src="evaluation/vocal_patterns/results/figure6_zipf.png" width="55%" alt="Rank distribution of the top 200 vocal patterns vs. Zipf's law">
+</div>
+</details>
+
+## 🔗 Related work
+
+- 🐶 **Phonetic and Lexical Discovery of Canine Vocalization** (Findings of EMNLP 2024): the first version of this pipeline, with adaptor-grammar word discovery. Code: [UTA-ACL2/canineLexical](https://github.com/UTA-ACL2/canineLexical)
+
+## 📝 Citation
+
+If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{wang-etal-2025-toward,
@@ -112,6 +225,10 @@ finder.find_phonemes(context_mode="phoneme", num_context_phoneme=3, phoneme_merg
 }
 ```
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
-This code builds on PANNs, AudioSep, ATST-SED / DCASE 2023 Task 4, BEATs, fairseq HuBERT and auditok.
+This work is partially supported by NSF Award No. 2349713. The code builds on [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn), [AudioSep](https://github.com/Audio-AGI/AudioSep), [ATST-SED](https://github.com/Audio-WestlakeU/ATST-SED) / DCASE 2023 Task 4, [BEATs](https://github.com/microsoft/unilm/tree/master/beats), [fairseq HuBERT](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert), [auditok](https://github.com/amsehili/auditok) and [Janus-Pro](https://github.com/deepseek-ai/Janus).
+
+## 📄 License
+
+[MIT](LICENSE)
