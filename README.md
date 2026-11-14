@@ -198,7 +198,7 @@ We tried K ∈ {1, 3, 5} and the 5th/10th/15th percentiles, and selected K = 5 a
 <details>
 <summary><b>📈 Figure 6: the 200 most frequent vocal patterns follow Zipf's law</b></summary>
 <div align="center">
-<img src="evaluation/vocal_patterns/results/figure6_zipf.png" width="55%" alt="Rank distribution of the top 200 vocal patterns vs. Zipf's law">
+<img src="assets/zipf.png" width="55%" alt="Rank distribution of the top 200 vocal patterns vs. Zipf's law">
 </div>
 </details>
 
